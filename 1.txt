@@ -1,0 +1,7 @@
+Usage=========
+
+  FileHelper.ReadFile(filePath,(line, readBytes) =>
+            {
+			
+				return true;// to read more else return false
+			}, bs => Utils.GetStartingPos(bs, startTime, @"\d{1,2}:\d{1,2}:\d{1,2}.\d{6,6} t", datePart, "yyyyMMdd HH:mm:ss.ffffff", true));
